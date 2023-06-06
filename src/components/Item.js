@@ -1,10 +1,10 @@
-import RemButton from "./RemButton";
+import Button from "./Button";
 
 const Item = () => {
   return (
     <div>
-      <input type="text" />
-      <RemButton>Remove</RemButton>
+      <p>todo item</p>
+      <Button>Remove</Button>
     </div>
   );
 };

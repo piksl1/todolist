@@ -1,10 +1,10 @@
-import cardStyles from "./Card.module.css";
+import cardStyles from "./Container.module.css";
 
-const Card = (props) => {
+const Container = (props) => {
   return (
     <>
-      <section className={cardStyles.card}>{props.children}</section>
+      <section className={cardStyles.container}>{props.children}</section>
     </>
   );
 };
-export default Card;
+export default Container;

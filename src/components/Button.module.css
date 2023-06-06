@@ -1,0 +1,15 @@
+.button {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 75px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: purple;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+    transition: 0.3s;
+}
